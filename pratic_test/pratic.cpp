@@ -40,8 +40,8 @@ int main() {
 				break;
 			}
 
-			else if(waitKey(30) == 84){
-
+			else if(waitKey(30) == 116 || waitKey(30) == 84){
+				std::cout << "A tecla t foi pressionada.";
 				circulo();
 
 			}

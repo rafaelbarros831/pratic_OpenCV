@@ -73,18 +73,18 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ExecutablePath>C:\opencv\build\include;$(ExecutablePath)</ExecutablePath>
     <LibraryPath>C:\opencv\build\x64\vc16\lib;$(LibraryPath)</LibraryPath>
-    <TargetName>$(ProjectName)_new</TargetName>
+    <TargetName>$(ProjectName)_nov</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ExecutablePath>C:\opencv\build\include;$(ExecutablePath)</ExecutablePath>
     <LibraryPath>C:\opencv\build\x64\vc16\lib;$(LibraryPath)</LibraryPath>
-    <TargetName>$(ProjectName)_new</TargetName>
+    <TargetName>$(ProjectName)_nov</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <TargetName>$(ProjectName)_new</TargetName>
+    <TargetName>$(ProjectName)_nov</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <TargetName>$(ProjectName)_new</TargetName>
+    <TargetName>$(ProjectName)_nov</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
